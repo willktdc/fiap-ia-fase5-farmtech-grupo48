@@ -7,3 +7,6 @@ venv/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# previews locais (não versionar)
+*_preview.html

@@ -31,11 +31,11 @@ A **FarmTech Solutions** presta serviços de IA para uma fazenda de médio porte
 
 Em resumo, o notebook mostra que a base descreve **39 cenários climáticos observados para as 4 culturas** em uma mesma localidade; que existem **três regimes climáticos** cujo efeito sobre a produtividade muda de sinal conforme a cultura (o regime quente favorece o arroz e penaliza a borracha; o regime seco e mais fresco faz o oposto); que **não há outliers de rendimento**, apenas anos climáticos extremos; e que, entre os cinco algoritmos, os modelos de árvore (em especial o **Random Forest**) são os únicos que superam de forma consistente o baseline de "média da cultura", com erro percentual médio de 11,3% em cenários nunca vistos. O notebook também discute com transparência a principal limitação da base: uma tendência temporal (tecnológica) que as variáveis climáticas não capturam.
 
-🎬 **Vídeo da Entrega 1 (até 5 min, YouTube não listado):** LINK_DO_VIDEO_1
+🎬 **Vídeo da Entrega 1 (até 5 min, YouTube não listado):** [https://youtu.be/V7hdmooedbM](https://youtu.be/V7hdmooedbM)
 
 **Entrega 2 (Computação em Nuvem):** estimativa de custos na AWS Pricing Calculator para hospedar a API que receberá os dados dos sensores e executará o modelo, comparando as regiões São Paulo e Virgínia do Norte, com a justificativa técnica da escolha. Está documentada na seção [Entrega 2](#entrega-2) deste README.
 
-🎬 **Vídeo da Entrega 2 (até 5 min, YouTube não listado):** LINK_DO_VIDEO_2
+🎬 **Vídeo da Entrega 2 (até 5 min, YouTube não listado):** [https://youtu.be/EQDMDb9ZT5s](https://youtu.be/EQDMDb9ZT5s)
 
 ---
 
@@ -110,6 +110,8 @@ Observação complementar: a calculadora mostra outras instâncias com exatament
 **d) Quando a Virgínia do Norte faria sentido.** Apenas se não houvesse restrição legal de residência e a carga fosse assíncrona (processamento em lote noturno, treinamento de modelos), situação em que a latência importa pouco e o preço menor pesa mais. Não é o caso do cenário proposto.
 
 **Conclusão da Entrega 2:** a solução **mais barata** é a Virgínia do Norte (US$ 12,59/mês), mas a solução **adequada** ao cenário da FarmTech é **São Paulo (US$ 21,76/mês)**: conformidade legal é requisito eliminatório, a latência local melhora a experiência com os sensores em tempo real e a diferença de custo é pequena e otimizável. Em decisões de arquitetura em nuvem, o custo é uma das variáveis, não a única.
+
+🎬 **Vídeo da Entrega 2 (até 5 min, YouTube não listado):** [https://youtu.be/EQDMDb9ZT5s](https://youtu.be/EQDMDb9ZT5s)
 
 ---
 
